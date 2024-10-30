@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    padding: 50px;
+    margin: 16px;
+    font-family: sans-serif;
+}
+
+.post {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+img {
+max-width: 100%;
+height: auto;
+text-align: center;
+width: auto;
+margin-bottom: 20px;
+
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+}
+
+h3 {
+    position: absolute;
+    margin-bottom: -20px;
+}
+
+.post-body {
+    margin-right: 5px;
+}
+
+
+i.far.fa-bookmark.fa-lg {
+    position: absolute;
+    text-align: right;
+    left: 940px;
+}
