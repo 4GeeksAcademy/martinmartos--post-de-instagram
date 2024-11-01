@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    padding: 50px;
-    margin: 16px;
+    padding: 0px;
+    margin: 0px;
     font-family: sans-serif;
 }
 
@@ -9,15 +9,17 @@ body {
     background-color: white;
     width: 500px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 img {
 max-width: 100%;
 height: auto;
 text-align: center;
-width: auto;
-margin-bottom: 20px;
+width: 100%;
+margin-bottom: 15px;
+padding-bottom: 0;
+margin-top: 0%;
 
 }
 
@@ -28,9 +30,13 @@ margin-bottom: 20px;
     font-size: 10px;
 }
 
+.post-header i {
+    display: contents;
+}
 h3 {
     position: absolute;
-    margin-bottom: -20px;
+    margin-left: 16px;
+    margin-top: 38px;
 }
 
 .post-body {
@@ -41,5 +47,5 @@ h3 {
 i.far.fa-bookmark.fa-lg {
     position: absolute;
     text-align: right;
-    left: 940px;
+    left: 900px;
 }
